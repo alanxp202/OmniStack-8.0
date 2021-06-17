@@ -1,10 +1,11 @@
 import React from 'react';
 import './App.css';
+import logo from './assets/logo.svg';
 
 function App() {
   return (
     
-    <h1>Hello Omnistack</h1>
+    <img src = {logo} alt = "Tindev "></img>
 
   );
 }
